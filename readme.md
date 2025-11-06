@@ -55,24 +55,24 @@ Autor niniejszego repozytorium **nie jest autorem zadań**, a jedynie autorem
 
 ---
 
-[ ] **3. Sporządzenie sprawozdania** Na podstawie wykonanych zadań należy opracować
-sprawozdanie zawierające pełną analizę wyników i wniosków.
+[ ] **3. Sporządzenie sprawozdania** Na podstawie wykonanych zadań należy
+opracować sprawozdanie zawierające pełną analizę wyników i wniosków.
 
 ### Wymagania dotyczące sprawozdania:
 
 **Nagłówek:**
 
-- [ ] numer laboratorium
-- [ ] temat
-- [ ] autor
-- [ ] data
+- [ x ] numer laboratorium
+- [ x ] temat
+- [ x ] autor
+- [ x ] data
 
 **Zawartość:**
 
-- [ ] Treść zadania
-- [ ] Moje podejście do rozwiązania problemu — jak najgłębsza argumentacja
-      przyjętego podejścia
-- [ ] Ważniejsze fragmenty kodu
-- [ ] Wyniki (liczby, wykresy, tabele)
-- [ ] Wnioski (związki przyczynowo-skutkowe)
-- [ ] Bibliografia
+- [ x ] Treść zadania
+- [ x ] Moje podejście do rozwiązania problemu — jak najgłębsza argumentacja
+  przyjętego podejścia
+- [ x ] Ważniejsze fragmenty kodu
+- [ x ] Wyniki (liczby, wykresy, tabele)
+- [ x ] Wnioski (związki przyczynowo-skutkowe)
+- [ x ] Bibliografia
