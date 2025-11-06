@@ -23,10 +23,14 @@ void float_to_hex(float val, char *out) {
 }
 
 int main(void) {
+    FILE *fp = fopen("float_double_div3.csv", "w");
+    if (!fp) {
+        perror("Nie można utworzyć pliku");
+        return 1;
+    }
 
-
-    // Nagłówek
-    printf(
+    // Nagłówek pliku CSV
+    fprintf(fp,
         "iteracja,"
         "float_mantysa_hex,"
         "double_mantysa_hex,"
@@ -56,7 +60,8 @@ int main(void) {
         double_to_hex(mf, mf_hex);
         double_to_hex(md, md_hex);
 
-        printf(
+        // zapis do CSV
+        fprintf(fp,
             "%d,%s,%s,%d,%d,%.15e,%s,%s,%s\n",
             i, mf_hex, md_hex, ef, ed, fd, f_hex, d_hex, fd_hex);
 
@@ -84,5 +89,7 @@ int main(void) {
         i++;
     }
 
+    fclose(fp);
+    printf("Dane zapisano do pliku float_double_div3.csv\n");
     return 0;
 }
